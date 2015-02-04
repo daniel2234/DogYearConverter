@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         }
         dogYearsLabel.hidden=false
         dogYearsLabel.text="\(realDogYears)" + " Real Human Years"//string interpolation with label output
-        enterHumanYearsTextField.resignFirstResponder()
+        enterHumanYearsTextField.resignFirstResponder()//hides the keyboard after dogYearsLabel displays output
     }
 
 }

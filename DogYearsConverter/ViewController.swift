@@ -29,8 +29,24 @@ class ViewController: UIViewController {
         
         dogYearsLabel.hidden = false
         
-        dogYearsLabel.text = "\(intFromOptional * 7)" + " Human Years"
+        dogYearsLabel.text = "\(intFromOptional * 7)" + " Human Years"//displays label on
+        enterHumanYearsTextField.resignFirstResponder()//hides keyboard after input
+    }
+    
+    
+    @IBAction func convertToRealDogYearsButtonPressed(sender: UIButton) {//this function will follow the way you would calculate for
+        let stringFromTextField = enterHumanYearsTextField.text
+        let doubleFromTextField = Double((stringFromTextField as NSString).doubleValue)
         
+        var realDogYears:Double
+        if doubleFromTextField > 2{
+            realDogYears = (10.5 * 2) + (doubleFromTextField - 2) * 4 //this formula calculates the real dog years by taking the first 2 years multiplying it by 10.5 years and then after 2 years the value is multiplied by 4 years
+        }else{
+            realDogYears = doubleFromTextField * 10.5
+        
+        }
+        dogYearsLabel.hidden=false
+        dogYearsLabel.text="\(realDogYears)" + " Real Human Years"//string interpolation with label output
         enterHumanYearsTextField.resignFirstResponder()
     }
 

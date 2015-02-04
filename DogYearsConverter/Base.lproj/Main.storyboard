@@ -28,7 +28,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="139" y="28" width="168" height="21"/>
+                                    <rect key="frame" x="52" y="28" width="300" height="21"/>
                                 </variation>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Human Years Here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FVE-H6-cul">
@@ -51,6 +51,27 @@
                                     <action selector="convertToDogYearsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fI9-F8-FEz"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qg9-ev-tXd">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="184" y="289" width="46" height="30"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dlb-IQ-G6M">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Convert to Real Dog Years">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="96" y="185" width="181" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="convertToRealDogYearsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="anQ-pT-4eS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -59,6 +80,8 @@
                                 <exclude reference="3UX-d5-MB3"/>
                                 <exclude reference="FVE-H6-cul"/>
                                 <exclude reference="4EF-Ro-kKY"/>
+                                <exclude reference="Qg9-ev-tXd"/>
+                                <exclude reference="dlb-IQ-G6M"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -67,6 +90,8 @@
                                 <include reference="3UX-d5-MB3"/>
                                 <include reference="FVE-H6-cul"/>
                                 <include reference="4EF-Ro-kKY"/>
+                                <include reference="Qg9-ev-tXd"/>
+                                <include reference="dlb-IQ-G6M"/>
                             </mask>
                         </variation>
                     </view>

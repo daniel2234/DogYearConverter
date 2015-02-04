@@ -13,6 +13,7 @@
 		6537A6181A81C77300ADFDBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6537A6171A81C77300ADFDBB /* Images.xcassets */; };
 		6537A61B1A81C77300ADFDBB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6537A6191A81C77300ADFDBB /* LaunchScreen.xib */; };
 		6537A6271A81C77300ADFDBB /* DogYearsConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6537A6261A81C77300ADFDBB /* DogYearsConverterTests.swift */; };
+		6537A6311A81C82D00ADFDBB /* AgeOfLaika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6537A6301A81C82D00ADFDBB /* AgeOfLaika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		6537A6201A81C77300ADFDBB /* DogYearsConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogYearsConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6537A6251A81C77300ADFDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6537A6261A81C77300ADFDBB /* DogYearsConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogYearsConverterTests.swift; sourceTree = "<group>"; };
+		6537A6301A81C82D00ADFDBB /* AgeOfLaika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AgeOfLaika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		6537A60E1A81C77300ADFDBB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6537A6301A81C82D00ADFDBB /* AgeOfLaika.jpg */,
 				6537A60F1A81C77300ADFDBB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6537A6161A81C77300ADFDBB /* Main.storyboard in Resources */,
+				6537A6311A81C82D00ADFDBB /* AgeOfLaika.jpg in Resources */,
 				6537A61B1A81C77300ADFDBB /* LaunchScreen.xib in Resources */,
 				6537A6181A81C77300ADFDBB /* Images.xcassets in Resources */,
 			);
